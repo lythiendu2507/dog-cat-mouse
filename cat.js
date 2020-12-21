@@ -10,6 +10,10 @@ function Cat()
 {
     stomat = [];
 }
+Cat.prototype.eat = function(Mouse)
+{
+    this.stomat.push(Mouse);
+}
 
 
 module.exports= Cat;
